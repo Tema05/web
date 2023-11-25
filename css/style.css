@@ -315,11 +315,14 @@ body {
 }
 
 .no-webp .intro {
-  background: url("../img/intro.jpg") no-repeat right #d1b292; }
+  background-image: url("../img/intro.jpg"); }
 
 .intro {
   width: 100%;
   height: 650px;
+  background-color: #d1b292;
+  background-repeat: no-repeat;
+  background-position: right;
   background-size: contain;
   font-family: PoiretOne;
   color: #333;
@@ -366,11 +369,14 @@ body {
 }
 
 .no-webp .contacts {
-  background: url("../img/person.jpg") no-repeat right #241916; }
+  background-image: url("../img/person.jpg"); }
 
 .contacts {
   width: 100%;
   height: 800px;
+  background-color: #241916;
+  background-repeat: no-repeat;
+  background-position: right;
   background-size: contain;
   font-family: PoiretOne;
 }
@@ -470,6 +476,6 @@ body {
   margin: 0 0 5px 0;
 }
 
-.webp .intro { background: url(../img/intro.webp) no-repeat right #d1b292; }
+.webp .intro { background-image: url(../img/intro.webp); }
 
-.webp .contacts { background: url(../img/person.webp) no-repeat right #241916; }
+.webp .contacts { background-image: url(../img/person.webp); }
