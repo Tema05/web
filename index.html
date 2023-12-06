@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=on">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/style.min.css?_v=20231205195538">
+	<link rel="stylesheet" href="css/style.min.css?_v=20231206181205">
 </head>
 	<body>
 		<div class="wrapper">
@@ -13,21 +13,31 @@
 		<nav class="header__nav nav">
 			<ul class="nav__row">
 				<li class="nav__item">
-					<a class="nav__link" href="#">Каталог</a>
+					<a class="nav__link" href="#catalog">Каталог</a>
 					<ul class="nav__list">
-						<li class="nav__element"><a class="nav__link nav__link-element" href="#">Новый год</a></li>
-						<li class="nav__element"><a class="nav__link nav__link-element" href="#">Ароматические свечи</a></li>
-						<li class="nav__element"><a class="nav__link nav__link-element" href="#">Свечи в гипсе</a></li>
-						<li class="nav__element"><a class="nav__link nav__link-element" href="#">Фигурные свечи</a></li>
-						<li class="nav__element"><a class="nav__link nav__link-element" href="#">Изделия из гипса</a></li>
+						<li class="nav__element"><a class="nav__link nav__link-element" href="#1">Новый год</a></li>
+						<li class="nav__element"><a class="nav__link nav__link-element" href="#2">Ароматические свечи</a></li>
+						<li class="nav__element"><a class="nav__link nav__link-element" href="#3">Свечи в гипсе</a></li>
+						<li class="nav__element"><a class="nav__link nav__link-element" href="#4">Фигурные свечи</a></li>
+						<li class="nav__element"><a class="nav__link nav__link-element" href="#5">Изделия из гипса</a></li>
 					</ul>
 				</li>
-				<li class="nav__item"><a class="nav__link" href="#">Доставка</a></li>
-				<li class="nav__item"><a class="nav__link nav__link-img" href="#"><img class="nav__img" src="img/logo_white.svg" alt=""></a></li>
-				<li class="nav__item"><a class="nav__link" href="#">О нас</a></li>
-				<li class="nav__item"><a class="nav__link" href="#">Контакты</a></li>
+				<li class="nav__item"><a class="nav__link" href="#delivery">Доставка</a></li>
+				<li class="nav__item"><a class="nav__link nav__link-img" href="/"><img class="nav__img" src="img/logo_white.svg" alt=""></a></li>
+				<li class="nav__item"><a class="nav__link" href="#about">О нас</a></li>
+				<li class="nav__item"><a class="nav__link" href="#contacts">Контакты</a></li>
 			</ul>
 		</nav>
+	</div>
+	<div class="header__icons icons">
+		<ul class="icons__row">
+			<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/flowwow.svg" alt=""></a></li>
+			<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/instagram.svg" alt=""></a></li>
+			<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/ozon.svg" alt=""></a></li>
+			<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/telegram.svg" alt=""></a></li>
+			<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/wailberis.svg" alt=""></a></li>
+			<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/yandex.svg" alt=""></a></li>
+		</ul>
 	</div>
 </header>
 			<main class="main">
@@ -35,7 +45,7 @@
 					<div class="cover__filter"></div>
 					<img class="cover__img" src="img/logo_black.svg" alt="">
 				</section>
-				<section class="main__slogan slogan">
+				<section class="main__slogan slogan" id="catalog">
 					<div class="slogan__container _container">
 						<p class="slogan__acticle">сюда писать слоган или что то подобное</p>
 					</div>
@@ -48,7 +58,7 @@
 									<picture><source srcset="img/categories_1.webp" type="image/webp"><img class="categories__img" src="img/categories_1.jpg" alt=""></picture>
 									<h6 class="categories__label">Новый год</h6>
 									<p class="categories__text">Facilis neque dolor nobis asperiores labore. Accusamus?</p>
-									<div class="categories__button">Открыть</div>
+									<div class="categories__button button">Открыть</div>
 								</div>
 							</div>
 							<div class="categories__item">
@@ -56,7 +66,7 @@
 									<picture><source srcset="img/categories_2.webp" type="image/webp"><img class="categories__img" src="img/categories_2.jpg" alt=""></picture>
 									<h6 class="categories__label">Ароматические свечи</h6>
 									<p class="categories__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, soluta!</p>
-									<div class="categories__button">Открыть</div>
+									<div class="categories__button button">Открыть</div>
 								</div>
 							</div>
 							<div class="categories__item">
@@ -64,7 +74,7 @@
 									<picture><source srcset="img/categories_3.webp" type="image/webp"><img class="categories__img" src="img/categories_3.jpg" alt=""></picture>
 									<h6 class="categories__label">Свечи в гипсе</h6>
 									<p class="categories__text">Sit amet consectetur adipisicing elit. Itaque nihil blanditiis labore amet, minus maxime.</p>
-									<div class="categories__button">Открыть</div>
+									<div class="categories__button button">Открыть</div>
 								</div>
 							</div>
 							<div class="categories__item">
@@ -72,7 +82,7 @@
 									<picture><source srcset="img/categories_4.webp" type="image/webp"><img class="categories__img" src="img/categories_4.jpg" alt=""></picture>
 									<h6 class="categories__label">Фигурные свечи</h6>
 									<p class="categories__text">Ullam voluptates quasi reiciendis, odit voluptas non quos maxime!</p>
-									<div class="categories__button">Открыть</div>
+									<div class="categories__button button">Открыть</div>
 								</div>
 							</div>
 							<div class="categories__item">
@@ -80,10 +90,11 @@
 									<picture><source srcset="img/categories_5.webp" type="image/webp"><img class="categories__img" src="img/categories_5.jpg" alt=""></picture>
 									<h6 class="categories__label">Изделия из гипса</h6>
 									<p class="categories__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-									<div class="categories__button">Открыть</div>
+									<div class="categories__button button">Открыть</div>
 								</div>
 							</div>
 						</div>
+						<div class="categories__button categories__button-all button">Все товары</div>
 					</div>
 				</section>
 				<section class="catalog">
@@ -104,7 +115,7 @@
 											<span class="catalog__price-value">1490</span>
 											<span class="catalog__price-discount">1790</span>
 										</div>
-										<div class="catalog__button">Купить</div>
+										<div class="catalog__button button">Купить</div>
 										<div class="catalog__icons icons">
 											<ul class="icons__row">
 												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/flowwow.svg" alt=""></a></li>
@@ -126,9 +137,8 @@
 										<p class="catalog__text">Берегиня шаманка олицетворяет собой мощнейшую коллаборацию дикой природы, воли, независимости, отваги и бесстрашия, и одновременно любовь к своей семье и привязанность к потомству.</p>
 										<div class="catalog__price">
 											<span class="catalog__price-value">799</span>
-											<!-- <span class="catalog__price-discount">990</span> -->
 										</div>
-										<div class="catalog__button">Купить</div>
+										<div class="catalog__button button">Купить</div>
 										<div class="catalog__icons icons">
 											<ul class="icons__row">
 												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/flowwow.svg" alt=""></a></li>
@@ -152,7 +162,7 @@
 											<span class="catalog__price-value">800</span>
 											<span class="catalog__price-discount">1100</span>
 										</div>
-										<div class="catalog__button">Купить</div>
+										<div class="catalog__button button">Купить</div>
 										<div class="catalog__icons icons">
 											<ul class="icons__row">
 												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/flowwow.svg" alt=""></a></li>
@@ -174,9 +184,75 @@
 										<p class="catalog__text">Материал: гипс</p>
 										<div class="catalog__price">
 											<span class="catalog__price-value">500</span>
-											<!--<span class="catalog__price-discount">990</span> -->
 										</div>
-										<div class="catalog__button">Купить</div>
+										<div class="catalog__button button">Купить</div>
+										<div class="catalog__icons icons">
+											<ul class="icons__row">
+												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/flowwow.svg" alt=""></a></li>
+												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/instagram.svg" alt=""></a></li>
+												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/ozon.svg" alt=""></a></li>
+												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/telegram.svg" alt=""></a></li>
+												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/wailberis.svg" alt=""></a></li>
+												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/yandex.svg" alt=""></a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+
+								<div class="catalog__item">
+									<picture><source srcset="img/catalog_5.webp" type="image/webp"><img class="catalog__img" src="img/catalog_5.jpg" alt=""></picture>
+									<div class="catalog__body">
+										<h6 class="catalog__label">Пара с татуировкой дракона</h6>
+										<p class="catalog__text">Особенностью данного набора является наличие двух свечей в форме торсов мужского и женского. Они выполнены в едином стиле, что позволяет создать гармоничную композицию в любом помещении.</p>
+										<p class="catalog__text">Свечи имеют реалистичные татуировки дракона на спине, что делает их не только источником света, но и стильным элементом декора.</p>
+										<div class="catalog__price">
+											<span class="catalog__price-value">990</span>
+										</div>
+										<div class="catalog__button button">Купить</div>
+										<div class="catalog__icons icons">
+											<ul class="icons__row">
+												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/flowwow.svg" alt=""></a></li>
+												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/instagram.svg" alt=""></a></li>
+												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/ozon.svg" alt=""></a></li>
+												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/telegram.svg" alt=""></a></li>
+												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/wailberis.svg" alt=""></a></li>
+												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/yandex.svg" alt=""></a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="catalog__item">
+									<picture><source srcset="img/catalog_6.webp" type="image/webp"><img class="catalog__img" src="img/catalog_6.jpg" alt=""></picture>
+									<div class="catalog__body">
+										<h6 class="catalog__label">Ароматические свечи Один дома</h6>
+										<p class="catalog__text">Свеча "Один Дома" - это уникальное сочетание декоративного искусства и ароматерапии. Она создана из кокосового воска, что делает ее не только красивой, но и безопасной для окружающей среды.</p>
+										<p class="catalog__text">Аромат клубники, игристого и винограда, который источает свеча, создает уютную атмосферу и помогает расслабиться после долгого дня. "Один Дома" станет отличным подарком для любителей фильма "Один Дома" или просто для тех, кто ценит уют и комфорт.</p>
+										<div class="catalog__price">
+											<span class="catalog__price-value">1300</span>
+										</div>
+										<div class="catalog__button button">Купить</div>
+										<div class="catalog__icons icons">
+											<ul class="icons__row">
+												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/flowwow.svg" alt=""></a></li>
+												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/instagram.svg" alt=""></a></li>
+												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/ozon.svg" alt=""></a></li>
+												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/telegram.svg" alt=""></a></li>
+												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/wailberis.svg" alt=""></a></li>
+												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/yandex.svg" alt=""></a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="catalog__item">
+									<picture><source srcset="img/catalog_7.webp" type="image/webp"><img class="catalog__img" src="img/catalog_7.jpg" alt=""></picture>
+									<div class="catalog__body">
+										<h6 class="catalog__label">Подсвечник молот Тора</h6>
+										<p class="catalog__text">Подсвечник молот Тора - скандинавского бога грома и молнии. Этот уникальный дизайн делает его не просто функциональным предметом, но и стильным элементом декора. Он предназначен для трех чайных свечей. Это позволяет создать уютную и теплую атмосферу в вашем доме, а также использовать подсвечник в качестве оригинального подарка.</p>
+										<p class="catalog__text">Подсвечник изготовлен из качественных материалов, что гарантирует его долговечность и безопасность использования.</p>
+										<div class="catalog__price">
+											<span class="catalog__price-value">990</span>
+										</div>
+										<div class="catalog__button button">Купить</div>
 										<div class="catalog__icons icons">
 											<ul class="icons__row">
 												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/flowwow.svg" alt=""></a></li>
@@ -193,7 +269,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="main__delivery delivery">
+				<section class="main__delivery delivery" id="delivery">
 					<div class="delivery__container _container">
 						<div class="delivery__row">
 							<h3 class="delivery__article">ИНФОРМАЦИЯ О ДОСТАВКЕ</h3>
@@ -201,7 +277,12 @@
 						</div>
 					</div>
 				</section>
-				<section class="main__contacts contacts">
+				<section class="main__about about" id="about">
+					<div class="about__container _container">
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore unde eos ipsa facere atque? Eum id, officia voluptatum, aspernatur vel quidem error vero reprehenderit quas quis quo temporibus iusto delectus mollitia voluptatem tempora quos quisquam dolor? Accusamus labore aliquam quaerat, eligendi, cum molestiae mollitia eius eveniet illum minima repellendus provident tempora inventore magni, id velit dolore voluptas error aperiam suscipit sunt soluta doloremque fugiat! Iste dignissimos sit, ipsa facilis molestiae iusto cumque sed quibusdam perferendis voluptas pariatur veniam aliquam minus exercitationem natus placeat atque ipsam cum, quo culpa, et itaque aliquid. Ut adipisci dolorum assumenda amet aut esse? Voluptatum natus delectus, dicta incidunt asperiores eaque quaerat molestias, quis architecto omnis iste nisi repellendus cupiditate? Inventore eum quisquam officiis dolorum optio eius maiores sit, exercitationem corrupti ipsam provident qui voluptatem animi itaque odio minima est magni culpa recusandae quae? Vitae perspiciatis vero incidunt placeat id aspernatur ad ratione dolorem culpa itaque quam deserunt iure illum molestias numquam vel facilis, nihil quae soluta ipsa? Neque nesciunt in omnis ipsam maiores. Natus, rem hic blanditiis praesentium enim, laboriosam nulla doloremque iste porro architecto commodi saepe nostrum iusto! Consequatur labore dolor consectetur, minus obcaecati animi optio ipsam numquam illum sequi hic debitis quos minima in quisquam eveniet. Accusantium est quas quos beatae fugiat dolorum magnam corporis corrupti reprehenderit, id dolor exercitationem consequatur ab at, eaque sapiente vero impedit deserunt tempora rerum cupiditate. Recusandae quia ipsum labore eos deserunt aperiam optio totam fuga accusamus corrupti, odit id repellat laborum voluptatibus, consequatur, hic temporibus perferendis dolor rerum libero velit sint. Accusantium omnis rerum, ut, cumque architecto velit laboriosam mollitia eum hic eius minima iste, assumenda quia inventore recusandae veniam molestiae consequuntur voluptatum dolorum molestias quam voluptates at quaerat dolores. Deserunt veritatis cumque harum officia nesciunt libero eligendi itaque assumenda molestiae! Accusamus minima omnis eligendi fuga minus in dolore assumenda. Amet veritatis, eveniet veniam eos distinctio iure nemo cum similique voluptatum exercitationem quas repellendus ipsa rerum laudantium asperiores! Praesentium illo nemo reprehenderit saepe ad, nihil debitis laboriosam minus autem blanditiis consectetur maiores quasi qui veniam quibusdam consequatur quam! Exercitationem cumque dicta voluptate? Ipsa non assumenda, autem cumque praesentium vitae! Quae vitae distinctio eaque inventore dicta beatae quas, nam, facere possimus doloribus in? Eum unde alias velit earum temporibus, consectetur consequatur repudiandae autem dolor. Eligendi et rem, consectetur sint iste nobis reprehenderit quasi cum aliquam odit in molestias quisquam qui sapiente? Illo quos tempore nesciunt natus dolor laudantium voluptate, quidem numquam explicabo iure facere minima veritatis omnis, magni alias est sed adipisci itaque ipsum nobis at fugiat, quod quas quia? Officiis quas saepe exercitationem cupiditate error, autem provident quis magni distinctio soluta nesciunt, porro sed a. Mollitia veniam temporibus sapiente, nam asperiores quidem fugit consectetur in maxime ducimus aut porro dignissimos debitis iste architecto dolores possimus. Iusto animi magni aliquid? Ipsum sit corrupti cum unde nulla. Quod, culpa suscipit dolorum veritatis, deleniti aliquam recusandae ullam mollitia ipsum maiores debitis fugiat! Dolorum sapiente ea, modi quae, corporis ipsam consectetur doloremque quas tenetur optio, illum quaerat aliquid at nemo nam?</p>
+					</div>
+				</section>
+				<section class="main__contacts contacts" id="contacts">
 					<div class="contacts__container _container">
 						<div class="contacts__row">
 							<h3 class="contacts__article">КОНТАКТЫ</h3>
@@ -230,6 +311,6 @@
 	</div>
 </footer>
 		</div>
-		<script src="js/app.min.js?_v=20231205195538"></script>
+		<script src="js/app.min.js?_v=20231206181205"></script>
 	</body>
 </html>
