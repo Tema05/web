@@ -275,6 +275,10 @@ body {
   }
 }
 
+.icons {
+  height: 50px;
+}
+
 .icons__row {
   height: 100%;
   display: flex;
