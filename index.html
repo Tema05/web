@@ -4,7 +4,8 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=on">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/style.min.css?_v=20231206181205">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css?_v=20231208165703" />
+	<link rel="stylesheet" href="css/style.min.css?_v=20231208165703">
 </head>
 	<body>
 		<div class="wrapper">
@@ -15,11 +16,21 @@
 				<li class="nav__item">
 					<a class="nav__link" href="#catalog">Каталог</a>
 					<ul class="nav__list">
-						<li class="nav__element"><a class="nav__link nav__link-element" href="#1">Новый год</a></li>
-						<li class="nav__element"><a class="nav__link nav__link-element" href="#2">Ароматические свечи</a></li>
-						<li class="nav__element"><a class="nav__link nav__link-element" href="#3">Свечи в гипсе</a></li>
-						<li class="nav__element"><a class="nav__link nav__link-element" href="#4">Фигурные свечи</a></li>
-						<li class="nav__element"><a class="nav__link nav__link-element" href="#5">Изделия из гипса</a></li>
+						<li class="nav__element">
+							<div class="nav__link nav__link-element" href="#1">Новый год</div>
+						</li>
+						<li class="nav__element">
+							<div class="nav__link nav__link-element" href="#2">Ароматические свечи</div>
+						</li>
+						<li class="nav__element">
+							<div class="nav__link nav__link-element" href="#3">Свечи в гипсе</div>
+						</li>
+						<li class="nav__element">
+							<div class="nav__link nav__link-element" href="#4">Фигурные свечи</div>
+						</li>
+						<li class="nav__element">
+							<div class="nav__link nav__link-element" href="#5">Изделия из гипса</div>
+						</li>
 					</ul>
 				</li>
 				<li class="nav__item"><a class="nav__link" href="#delivery">Доставка</a></li>
@@ -31,12 +42,12 @@
 	</div>
 	<div class="header__icons icons">
 		<ul class="icons__row">
-			<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/flowwow.svg" alt=""></a></li>
-			<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/instagram.svg" alt=""></a></li>
-			<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/ozon.svg" alt=""></a></li>
+			<li class="icons__item"><a class="icons__link" href="https://flowwow.com/shop/atmos-candle-72/"><img class="icons__img" src="img/icons/flowwow.svg" alt=""></a></li>
+			<li class="icons__item"><a class="icons__link" href="https://instagram.com/atmos_candle_72?igshid=OGQ5ZDc2ODk2ZA=="><img class="icons__img" src="img/icons/instagram.svg" alt=""></a></li>
+			<li class="icons__item"><a class="icons__link" href="https://www.ozon.ru/seller/atmospheric-candle-1051511/products/?miniapp=seller_1051511"><img class="icons__img" src="img/icons/ozon.svg" alt=""></a></li>
 			<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/telegram.svg" alt=""></a></li>
-			<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/wailberis.svg" alt=""></a></li>
-			<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/yandex.svg" alt=""></a></li>
+			<li class="icons__item"><a class="icons__link" href="https://www.wildberries.ru/seller/1210986"><img class="icons__img" src="img/icons/wailberis.svg" alt=""></a></li>
+			<li class="icons__item"><a class="icons__link" href="https://market.yandex.ru/business--atmospheric-candle/64458125 "><img class="icons__img" src="img/icons/yandex.svg" alt=""></a></li>
 		</ul>
 	</div>
 </header>
@@ -54,40 +65,40 @@
 					<div class="categories__container _container">
 						<div class="categories__row">
 							<div class="categories__item">
-								<div class="categories__block">
-									<picture><source srcset="img/categories_1.webp" type="image/webp"><img class="categories__img" src="img/categories_1.jpg" alt=""></picture>
+								<div class="categories__block" data-categoryId="1">
+									<picture><source srcset="img/category_1/cover.webp" type="image/webp"><img class="categories__img" src="img/category_1/cover.jpg" alt=""></picture>
 									<h6 class="categories__label">Новый год</h6>
 									<p class="categories__text">Facilis neque dolor nobis asperiores labore. Accusamus?</p>
 									<div class="categories__button button">Открыть</div>
 								</div>
 							</div>
 							<div class="categories__item">
-								<div class="categories__block" href="#">
-									<picture><source srcset="img/categories_2.webp" type="image/webp"><img class="categories__img" src="img/categories_2.jpg" alt=""></picture>
+								<div class="categories__block" data-categoryId="2">
+									<picture><source srcset="img/category_2/cover.webp" type="image/webp"><img class="categories__img" src="img/category_2/cover.jpg" alt=""></picture>
 									<h6 class="categories__label">Ароматические свечи</h6>
 									<p class="categories__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, soluta!</p>
 									<div class="categories__button button">Открыть</div>
 								</div>
 							</div>
 							<div class="categories__item">
-								<div class="categories__block" href="#">
-									<picture><source srcset="img/categories_3.webp" type="image/webp"><img class="categories__img" src="img/categories_3.jpg" alt=""></picture>
+								<div class="categories__block" data-categoryId="3">
+									<picture><source srcset="img/category_3/cover.webp" type="image/webp"><img class="categories__img" src="img/category_3/cover.jpg" alt=""></picture>
 									<h6 class="categories__label">Свечи в гипсе</h6>
 									<p class="categories__text">Sit amet consectetur adipisicing elit. Itaque nihil blanditiis labore amet, minus maxime.</p>
 									<div class="categories__button button">Открыть</div>
 								</div>
 							</div>
 							<div class="categories__item">
-								<div class="categories__block" href="#">
-									<picture><source srcset="img/categories_4.webp" type="image/webp"><img class="categories__img" src="img/categories_4.jpg" alt=""></picture>
+								<div class="categories__block" data-categoryId="4">
+									<picture><source srcset="img/category_4/cover.webp" type="image/webp"><img class="categories__img" src="img/category_4/cover.jpg" alt=""></picture>
 									<h6 class="categories__label">Фигурные свечи</h6>
 									<p class="categories__text">Ullam voluptates quasi reiciendis, odit voluptas non quos maxime!</p>
 									<div class="categories__button button">Открыть</div>
 								</div>
 							</div>
 							<div class="categories__item">
-								<div class="categories__block" href="#">
-									<picture><source srcset="img/categories_5.webp" type="image/webp"><img class="categories__img" src="img/categories_5.jpg" alt=""></picture>
+								<div class="categories__block" data-categoryId="5">
+									<picture><source srcset="img/category_5/cover.webp" type="image/webp"><img class="categories__img" src="img/category_5/cover.jpg" alt=""></picture>
 									<h6 class="categories__label">Изделия из гипса</h6>
 									<p class="categories__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 									<div class="categories__button button">Открыть</div>
@@ -101,10 +112,27 @@
 					<div class="catalog__cross"></div>
 					<div class="catalog__main">
 						<div class="catalog__container _container">
-							<h3 class="catalog__acticle">Новый год</h3>
+							<h3 class="catalog__acticle catalog__acticle-1">Новый год</h3>
+							<h3 class="catalog__acticle catalog__acticle-2">Ароматические свечи</h3>
+							<h3 class="catalog__acticle catalog__acticle-3">Свечи в гипсе</h3>
+							<h3 class="catalog__acticle catalog__acticle-4">Фигурные свечи</h3>
+							<h3 class="catalog__acticle catalog__acticle-5">Изделия из гипса</h3>
+							<h3 class="catalog__acticle catalog__acticle-all">Все товары</h3>
 							<div class="catalog__row">
-								<div class="catalog__item">
-									<picture><source srcset="img/catalog_1.webp" type="image/webp"><img class="catalog__img" src="img/catalog_1.jpg" alt=""></picture>
+								<div class="catalog__item catalog__item-1">
+									<div class="catalog__swiper">
+										<div class="swiper">
+											<div class="swiper-wrapper">
+												<div class="swiper-slide"><picture><source srcset="img/category_1/1_1.webp" type="image/webp"><img src="img/category_1/1_1.jpg" alt=""></picture></div>
+												<div class="swiper-slide"><picture><source srcset="img/category_1/1_2.webp" type="image/webp"><img src="img/category_1/1_2.jpg" alt=""></picture></div>
+												<div class="swiper-slide"><picture><source srcset="img/category_1/1_3.webp" type="image/webp"><img src="img/category_1/1_3.jpg" alt=""></picture></div>
+												<div class="swiper-slide"><picture><source srcset="img/category_1/1_4.webp" type="image/webp"><img src="img/category_1/1_4.jpg" alt=""></picture></div>
+											</div>
+											<div class="swiper-pagination"></div>
+											<div class="swiper-button-prev"></div>
+											<div class="swiper-button-next"></div>
+										</div>
+									</div>
 									<div class="catalog__body">
 										<h6 class="catalog__label">Машинка с ёлкой</h6>
 										<p class="catalog__text">Представляем вашему вниманию уникальную новогоднюю свечу "Машинка с ёлкой". Это не просто декоративный элемент, но и источник приятного аромата, который создаст атмосферу праздника и уюта в вашем доме.</p>
@@ -113,46 +141,73 @@
 										<p class="catalog__text">Особенностью данной свечи является то, что она не только создает атмосферу праздника, но и обладает приятным ароматом.</p>
 										<div class="catalog__price">
 											<span class="catalog__price-value">1490</span>
-											<span class="catalog__price-discount">1790</span>
+											<!-- <span class="catalog__price-discount"></span> -->
 										</div>
-										<div class="catalog__button button">Купить</div>
-										<div class="catalog__icons icons">
-											<ul class="icons__row">
-												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/flowwow.svg" alt=""></a></li>
-												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/instagram.svg" alt=""></a></li>
-												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/ozon.svg" alt=""></a></li>
-												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/telegram.svg" alt=""></a></li>
-												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/wailberis.svg" alt=""></a></li>
-												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/yandex.svg" alt=""></a></li>
-											</ul>
+										<div class="catalog__links">
+											<div class="catalog__button button">Купить</div>
+											<div class="catalog__icons icons">
+												<ul class="icons__row">
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/flowwow.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/instagram.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/ozon.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/telegram.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/wailberis.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/yandex.svg" alt=""></a></li>
+												</ul>
+											</div>
 										</div>
 									</div>
 								</div>
-								<div class="catalog__item">
-									<picture><source srcset="img/catalog_2.webp" type="image/webp"><img class="catalog__img" src="img/catalog_2.jpg" alt=""></picture>
+								<div class="catalog__item catalog__item-2">
+									<div class="catalog__swiper">
+										<div class="swiper">
+											<div class="swiper-wrapper">
+												<div class="swiper-slide"><picture><source srcset="img/category_2/1_1.webp" type="image/webp"><img src="img/category_2/1_1.jpg" alt=""></picture></div>
+												<div class="swiper-slide"><picture><source srcset="img/category_2/1_2.webp" type="image/webp"><img src="img/category_2/1_2.jpg" alt=""></picture></div>
+												<div class="swiper-slide"><picture><source srcset="img/category_2/1_3.webp" type="image/webp"><img src="img/category_2/1_3.jpg" alt=""></picture></div>
+											</div>
+											<div class="swiper-pagination"></div>
+											<div class="swiper-button-prev"></div>
+											<div class="swiper-button-next"></div>
+										</div>
+									</div>
 									<div class="catalog__body">
-										<h6 class="catalog__label">Берегиня Шаманка</h6>
-										<p class="catalog__text">Шаманка - это Лекарь Души и Тела. Она является хранительницей древних традиций, которые формировались задолго до современного мира.</p>
-										<p class="catalog__text">Шаманка находится в неразрывной связи с нашим Миром. Она - олицетворение вековой мудрости предков, обладает сильной интуицией, сильна духом и следует природным инстинктам.</p>
-										<p class="catalog__text">Берегиня шаманка олицетворяет собой мощнейшую коллаборацию дикой природы, воли, независимости, отваги и бесстрашия, и одновременно любовь к своей семье и привязанность к потомству.</p>
+										<h6 class="catalog__label">Ароматические свечи Один дома</h6>
+										<p class="catalog__text">Свеча "Один Дома" - это уникальное сочетание декоративного искусства и ароматерапии. Она создана из кокосового воска, что делает ее не только красивой, но и безопасной для окружающей среды.</p>
+										<p class="catalog__text">Аромат клубники, игристого и винограда, который источает свеча, создает уютную атмосферу и помогает расслабиться после долгого дня. "Один Дома" станет отличным подарком для любителей фильма "Один Дома" или просто для тех, кто ценит уют и комфорт.</p>
 										<div class="catalog__price">
-											<span class="catalog__price-value">799</span>
+											<span class="catalog__price-value">1300</span>
+											<!-- <span class="catalog__price-discount"></span> -->
 										</div>
-										<div class="catalog__button button">Купить</div>
-										<div class="catalog__icons icons">
-											<ul class="icons__row">
-												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/flowwow.svg" alt=""></a></li>
-												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/instagram.svg" alt=""></a></li>
-												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/ozon.svg" alt=""></a></li>
-												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/telegram.svg" alt=""></a></li>
-												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/wailberis.svg" alt=""></a></li>
-												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/yandex.svg" alt=""></a></li>
-											</ul>
+										<div class="catalog__links">
+											<div class="catalog__button button">Купить</div>
+											<div class="catalog__icons icons">
+												<ul class="icons__row">
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/flowwow.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/instagram.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/ozon.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/telegram.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/wailberis.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/yandex.svg" alt=""></a></li>
+												</ul>
+											</div>
 										</div>
 									</div>
 								</div>
-								<div class="catalog__item">
-									<picture><source srcset="img/catalog_3.webp" type="image/webp"><img class="catalog__img" src="img/catalog_3.jpg" alt=""></picture>
+								<div class="catalog__item catalog__item-3">
+									<div class="catalog__swiper">
+										<div class="swiper">
+											<div class="swiper-wrapper">
+												<div class="swiper-slide"><picture><source srcset="img/category_3/1_1.webp" type="image/webp"><img src="img/category_3/1_1.jpg" alt=""></picture></div>
+												<div class="swiper-slide"><picture><source srcset="img/category_3/1_2.webp" type="image/webp"><img src="img/category_3/1_2.jpg" alt=""></picture></div>
+												<div class="swiper-slide"><picture><source srcset="img/category_3/1_3.webp" type="image/webp"><img src="img/category_3/1_3.jpg" alt=""></picture></div>
+												<div class="swiper-slide"><picture><source srcset="img/category_3/1_4.webp" type="image/webp"><img src="img/category_3/1_4.jpg" alt=""></picture></div>
+											</div>
+											<div class="swiper-pagination"></div>
+											<div class="swiper-button-prev"></div>
+											<div class="swiper-button-next"></div>
+										</div>
+									</div>
 									<div class="catalog__body">
 										<h6 class="catalog__label">Карусель</h6>
 										<p class="catalog__text">Свеча "Карусель" - это уникальное сочетание эстетики и функциональности. Она станет прекрасным дополнением к интерьеру и создаст уютную атмосферу в вашем доме.</p>
@@ -160,23 +215,407 @@
 										<p class="catalog__text">Подсвечник "Карусель" выполнен в форме карусели, что придает свече особый шарм и оригинальность. Он не только служит контейнером для свечи, но и является стильным элементом декора.</p>
 										<div class="catalog__price">
 											<span class="catalog__price-value">800</span>
-											<span class="catalog__price-discount">1100</span>
+											<!-- <span class="catalog__price-discount"></span> -->
 										</div>
-										<div class="catalog__button button">Купить</div>
-										<div class="catalog__icons icons">
-											<ul class="icons__row">
-												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/flowwow.svg" alt=""></a></li>
-												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/instagram.svg" alt=""></a></li>
-												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/ozon.svg" alt=""></a></li>
-												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/telegram.svg" alt=""></a></li>
-												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/wailberis.svg" alt=""></a></li>
-												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/yandex.svg" alt=""></a></li>
-											</ul>
+										<div class="catalog__links">
+											<div class="catalog__button button">Купить</div>
+											<div class="catalog__icons icons">
+												<ul class="icons__row">
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/flowwow.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/instagram.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/ozon.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/telegram.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/wailberis.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/yandex.svg" alt=""></a></li>
+												</ul>
+											</div>
 										</div>
 									</div>
 								</div>
-								<div class="catalog__item">
-									<picture><source srcset="img/catalog_4.webp" type="image/webp"><img class="catalog__img" src="img/catalog_4.jpg" alt=""></picture>
+								<div class="catalog__item catalog__item-3">
+									<div class="catalog__swiper">
+										<div class="swiper">
+											<div class="swiper-wrapper">
+												<div class="swiper-slide"><picture><source srcset="img/category_3/2_1.webp" type="image/webp"><img src="img/category_3/2_1.jpg" alt=""></picture></div>
+												<div class="swiper-slide"><picture><source srcset="img/category_3/2_2.webp" type="image/webp"><img src="img/category_3/2_2.jpg" alt=""></picture></div>
+												<div class="swiper-slide"><picture><source srcset="img/category_3/2_3.webp" type="image/webp"><img src="img/category_3/2_3.jpg" alt=""></picture></div>
+												<div class="swiper-slide"><picture><source srcset="img/category_3/2_4.webp" type="image/webp"><img src="img/category_3/2_4.jpg" alt=""></picture></div>
+											</div>
+											<div class="swiper-pagination"></div>
+											<div class="swiper-button-prev"></div>
+											<div class="swiper-button-next"></div>
+										</div>
+									</div>
+									<div class="catalog__body">
+										<h6 class="catalog__label">Подсвечник молот Тора</h6>
+										<p class="catalog__text">Подсвечник молот Тора - скандинавского бога грома и молнии. Этот уникальный дизайн делает его не просто функциональным предметом, но и стильным элементом декора. Он предназначен для трех чайных свечей. Это позволяет создать уютную и теплую атмосферу в вашем доме, а также использовать подсвечник в качестве оригинального подарка.</p>
+										<p class="catalog__text">Подсвечник изготовлен из качественных материалов, что гарантирует его долговечность и безопасность использования.</p>
+										<div class="catalog__price">
+											<span class="catalog__price-value">990</span>
+											<!-- <span class="catalog__price-discount"></span> -->
+										</div>
+										<div class="catalog__links">
+											<div class="catalog__button button">Купить</div>
+											<div class="catalog__icons icons">
+												<ul class="icons__row">
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/flowwow.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/instagram.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/ozon.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/telegram.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/wailberis.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/yandex.svg" alt=""></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="catalog__item catalog__item-3">
+									<div class="catalog__swiper">
+										<div class="swiper">
+											<div class="swiper-wrapper">
+												<div class="swiper-slide"><picture><source srcset="img/category_3/3_1.webp" type="image/webp"><img src="img/category_3/3_1.jpg" alt=""></picture></div>
+												<div class="swiper-slide"><picture><source srcset="img/category_3/3_2.webp" type="image/webp"><img src="img/category_3/3_2.jpg" alt=""></picture></div>
+												<div class="swiper-slide"><picture><source srcset="img/category_3/3_3.webp" type="image/webp"><img src="img/category_3/3_3.jpg" alt=""></picture></div>
+												<div class="swiper-slide"><picture><source srcset="img/category_3/3_4.webp" type="image/webp"><img src="img/category_3/3_4.jpg" alt=""></picture></div>
+											</div>
+											<div class="swiper-pagination"></div>
+											<div class="swiper-button-prev"></div>
+											<div class="swiper-button-next"></div>
+										</div>
+									</div>
+									<div class="catalog__body">
+										<h6 class="catalog__label">Автобус хиппи</h6>
+										<p class="catalog__text">Свеча "Автобус хиппи" - это уникальное сочетание декоративного искусства и качественного продукта. Она выполнена из кокосового воска, что делает ее не только красивой, но и безопасной для окружающей среды. Подсвечник в форме автобуса добавляет оригинальности и уникальности. Он не только служит украшением, но и обеспечивает безопасность использования свечи.</p>
+										<p class="catalog__text">Аромат апельсина и корицы создает уютную атмосферу и поднимает настроение. </p>
+										<div class="catalog__price">
+											<span class="catalog__price-value">1400</span>
+											<!-- <span class="catalog__price-discount"></span> -->
+										</div>
+										<div class="catalog__links">
+											<div class="catalog__button button">Купить</div>
+											<div class="catalog__icons icons">
+												<ul class="icons__row">
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/flowwow.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/instagram.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/ozon.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/telegram.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/wailberis.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/yandex.svg" alt=""></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="catalog__item catalog__item-3">
+									<div class="catalog__swiper">
+										<div class="swiper">
+											<div class="swiper-wrapper">
+												<div class="swiper-slide"><picture><source srcset="img/category_3/4_1.webp" type="image/webp"><img src="img/category_3/4_1.jpg" alt=""></picture></div>
+												<div class="swiper-slide"><picture><source srcset="img/category_3/4_2.webp" type="image/webp"><img src="img/category_3/4_2.jpg" alt=""></picture></div>
+												<div class="swiper-slide"><picture><source srcset="img/category_3/4_3.webp" type="image/webp"><img src="img/category_3/4_3.jpg" alt=""></picture></div>
+												<div class="swiper-slide"><picture><source srcset="img/category_3/4_4.webp" type="image/webp"><img src="img/category_3/4_4.jpg" alt=""></picture></div>
+											</div>
+											<div class="swiper-pagination"></div>
+											<div class="swiper-button-prev"></div>
+											<div class="swiper-button-next"></div>
+										</div>
+									</div>
+									<div class="catalog__body">
+										<h6 class="catalog__label">Снежинка</h6>
+										<p class="catalog__text">Свеча из пальмого воска в подсвечнике в форме снежинки.</p>
+										<p class="catalog__text">С ароматом "пряное яблоко"</p>
+										<div class="catalog__price">
+											<span class="catalog__price-value">550</span>
+											<!-- <span class="catalog__price-discount"></span> -->
+										</div>
+										<div class="catalog__links">
+											<div class="catalog__button button">Купить</div>
+											<div class="catalog__icons icons">
+												<ul class="icons__row">
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/flowwow.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/instagram.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/ozon.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/telegram.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/wailberis.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/yandex.svg" alt=""></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="catalog__item catalog__item-4">
+									<div class="catalog__swiper">
+										<div class="swiper">
+											<div class="swiper-wrapper">
+												<div class="swiper-slide"><picture><source srcset="img/category_4/1_1.webp" type="image/webp"><img src="img/category_4/1_1.jpg" alt=""></picture></div>
+												<div class="swiper-slide"><picture><source srcset="img/category_4/1_2.webp" type="image/webp"><img src="img/category_4/1_2.jpg" alt=""></picture></div>
+												<div class="swiper-slide"><picture><source srcset="img/category_4/1_3.webp" type="image/webp"><img src="img/category_4/1_3.jpg" alt=""></picture></div>
+												<div class="swiper-slide"><picture><source srcset="img/category_4/1_4.webp" type="image/webp"><img src="img/category_4/1_4.jpg" alt=""></picture></div>
+											</div>
+											<div class="swiper-pagination"></div>
+											<div class="swiper-button-prev"></div>
+											<div class="swiper-button-next"></div>
+										</div>
+									</div>
+									<div class="catalog__body">
+										<h6 class="catalog__label">Пара с татуировкой дракона</h6>
+										<p class="catalog__text">Особенностью данного набора является наличие двух свечей в форме торсов мужского и женского. Они выполнены в едином стиле, что позволяет создать гармоничную композицию в любом помещении.</p>
+										<p class="catalog__text">Свечи имеют реалистичные татуировки дракона на спине, что делает их не только источником света, но и стильным элементом декора.</p>
+										<div class="catalog__price">
+											<span class="catalog__price-value">990</span>
+											<!-- <span class="catalog__price-discount"></span> -->
+										</div>
+										<div class="catalog__links">
+											<div class="catalog__button button">Купить</div>
+											<div class="catalog__icons icons">
+												<ul class="icons__row">
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/flowwow.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/instagram.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/ozon.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/telegram.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/wailberis.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/yandex.svg" alt=""></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="catalog__item catalog__item-4">
+									<div class="catalog__swiper">
+										<div class="swiper">
+											<div class="swiper-wrapper">
+												<div class="swiper-slide"><picture><source srcset="img/category_4/2_1.webp" type="image/webp"><img src="img/category_4/2_1.jpg" alt=""></picture></div>
+												<div class="swiper-slide"><picture><source srcset="img/category_4/2_2.webp" type="image/webp"><img src="img/category_4/2_2.jpg" alt=""></picture></div>
+												<div class="swiper-slide"><picture><source srcset="img/category_4/2_3.webp" type="image/webp"><img src="img/category_4/2_3.jpg" alt=""></picture></div>
+												<div class="swiper-slide"><picture><source srcset="img/category_4/2_4.webp" type="image/webp"><img src="img/category_4/2_4.jpg" alt=""></picture></div>
+											</div>
+											<div class="swiper-pagination"></div>
+											<div class="swiper-button-prev"></div>
+											<div class="swiper-button-next"></div>
+										</div>
+									</div>
+									<div class="catalog__body">
+										<h6 class="catalog__label">Берегиня Шаманка</h6>
+										<p class="catalog__text">Шаманка - это Лекарь Души и Тела. Она является хранительницей древних традиций, которые формировались задолго до современного мира.</p>
+										<p class="catalog__text">Шаманка находится в неразрывной связи с нашим Миром. Она - олицетворение вековой мудрости предков, обладает сильной интуицией, сильна духом и следует природным инстинктам.</p>
+										<p class="catalog__text">Берегиня шаманка олицетворяет собой мощнейшую коллаборацию дикой природы, воли, независимости, отваги и бесстрашия, и одновременно любовь к своей семье и привязанность к потомству.</p>
+										<div class="catalog__price">
+											<span class="catalog__price-value">799</span>
+											<!-- <span class="catalog__price-discount"></span> -->
+										</div>
+										<div class="catalog__links">
+											<div class="catalog__button button">Купить</div>
+											<div class="catalog__icons icons">
+												<ul class="icons__row">
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/flowwow.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/instagram.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/ozon.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/telegram.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/wailberis.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/yandex.svg" alt=""></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="catalog__item catalog__item-4">
+									<div class="catalog__swiper">
+										<div class="swiper">
+											<div class="swiper-wrapper">
+												<div class="swiper-slide"><picture><source srcset="img/category_4/3_1.webp" type="image/webp"><img src="img/category_4/3_1.jpg" alt=""></picture></div>
+												<div class="swiper-slide"><picture><source srcset="img/category_4/3_2.webp" type="image/webp"><img src="img/category_4/3_2.jpg" alt=""></picture></div>
+												<div class="swiper-slide"><picture><source srcset="img/category_4/3_3.webp" type="image/webp"><img src="img/category_4/3_3.jpg" alt=""></picture></div>
+												<div class="swiper-slide"><picture><source srcset="img/category_4/3_4.webp" type="image/webp"><img src="img/category_4/3_4.jpg" alt=""></picture></div>
+											</div>
+											<div class="swiper-pagination"></div>
+											<div class="swiper-button-prev"></div>
+											<div class="swiper-button-next"></div>
+										</div>
+									</div>
+									<div class="catalog__body">
+										<h6 class="catalog__label">Свеча Fuck</h6>
+										<p class="catalog__text">Свеча Fuck - это уникальное произведение искусства, созданное вручную из пчелиного воска. Она станет настоящим украшением вашего интерьера и подчеркнет ваш индивидуальный стиль.</p>
+										<p class="catalog__text">Свеча Fuck - это не просто предмет декора. Это символ вашего вкуса и индивидуальности. Она станет отличным подарком для друзей и близких, которые ценят качественные и стильные вещи.</p>
+										<div class="catalog__price">
+											<span class="catalog__price-value">800</span>
+											<!-- <span class="catalog__price-discount"></span> -->
+										</div>
+										<div class="catalog__links">
+											<div class="catalog__button button">Купить</div>
+											<div class="catalog__icons icons">
+												<ul class="icons__row">
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/flowwow.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/instagram.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/ozon.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/telegram.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/wailberis.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/yandex.svg" alt=""></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="catalog__item catalog__item-4">
+									<div class="catalog__swiper">
+										<div class="swiper">
+											<div class="swiper-wrapper">
+												<div class="swiper-slide"><picture><source srcset="img/category_4/4_1.webp" type="image/webp"><img src="img/category_4/4_1.jpg" alt=""></picture></div>
+												<div class="swiper-slide"><picture><source srcset="img/category_4/4_2.webp" type="image/webp"><img src="img/category_4/4_2.jpg" alt=""></picture></div>
+												<div class="swiper-slide"><picture><source srcset="img/category_4/4_3.webp" type="image/webp"><img src="img/category_4/4_3.jpg" alt=""></picture></div>
+												<div class="swiper-slide"><picture><source srcset="img/category_4/4_4.webp" type="image/webp"><img src="img/category_4/4_4.jpg" alt=""></picture></div>
+											</div>
+											<div class="swiper-pagination"></div>
+											<div class="swiper-button-prev"></div>
+											<div class="swiper-button-next"></div>
+										</div>
+									</div>
+									<div class="catalog__body">
+										<h6 class="catalog__label">Mr.Грю</h6>
+										<p class="catalog__text">Набор свечей mr.Грю - это уникальное сочетание декоративного искусства и качественного материала.</p>
+										<p class="catalog__text">Свечи изготовлены из пчелиного воска, что гарантирует их безопасность и экологичность. Пчелиный воск - это натуральный и безопасный материал, который не выделяет вредных веществ при горении.</p>
+										<p class="catalog__text">Дизайн свечей выполнен в виде двух злых собак, что придает им особый шарм и уникальность. Эти свечи станут отличным дополнением к интерьеру и подчеркнут ваш индивидуальный стиль.</p>
+										<div class="catalog__price">
+											<span class="catalog__price-value">600</span>
+											<!-- <span class="catalog__price-discount"></span> -->
+										</div>
+										<div class="catalog__links">
+											<div class="catalog__button button">Купить</div>
+											<div class="catalog__icons icons">
+												<ul class="icons__row">
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/flowwow.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/instagram.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/ozon.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/telegram.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/wailberis.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/yandex.svg" alt=""></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="catalog__item catalog__item-4">
+									<div class="catalog__swiper">
+										<div class="swiper">
+											<div class="swiper-wrapper">
+												<div class="swiper-slide"><picture><source srcset="img/category_4/5_1.webp" type="image/webp"><img src="img/category_4/5_1.jpg" alt=""></picture></div>
+												<div class="swiper-slide"><picture><source srcset="img/category_4/5_2.webp" type="image/webp"><img src="img/category_4/5_2.jpg" alt=""></picture></div>
+												<div class="swiper-slide"><picture><source srcset="img/category_4/5_3.webp" type="image/webp"><img src="img/category_4/5_3.jpg" alt=""></picture></div>
+												<div class="swiper-slide"><picture><source srcset="img/category_4/5_4.webp" type="image/webp"><img src="img/category_4/5_4.jpg" alt=""></picture></div>
+											</div>
+											<div class="swiper-pagination"></div>
+											<div class="swiper-button-prev"></div>
+											<div class="swiper-button-next"></div>
+										</div>
+									</div>
+									<div class="catalog__body">
+										<h6 class="catalog__label">Рука Бафомета</h6>
+										<p class="catalog__text">Свеча изготовлена из пчелиного воска, что делает ее не только экологически чистой, но и придает продукту неповторимый аромат. Дизайн свечи "Рука Бафомета" выполнен в виде руки, что придает ей особую мистическую атмосферу. Это не просто свеча, это произведение искусства, которое станет ярким акцентом в вашем интерьере.</p>
+										<p class="catalog__text">Декоративная свеча "Рука Бафомета" - это не просто источник света, это возможность создать уникальную атмосферу в вашем доме или сделать оригинальный подарок.</p>
+										<div class="catalog__price">
+											<span class="catalog__price-value">900</span>
+											<!-- <span class="catalog__price-discount"></span> -->
+										</div>
+										<div class="catalog__links">
+											<div class="catalog__button button">Купить</div>
+											<div class="catalog__icons icons">
+												<ul class="icons__row">
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/flowwow.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/instagram.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/ozon.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/telegram.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/wailberis.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/yandex.svg" alt=""></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="catalog__item catalog__item-4">
+									<div class="catalog__swiper">
+										<div class="swiper">
+											<div class="swiper-wrapper">
+												<div class="swiper-slide"><picture><source srcset="img/category_4/6_1.webp" type="image/webp"><img src="img/category_4/6_1.jpg" alt=""></picture></div>
+												<div class="swiper-slide"><picture><source srcset="img/category_4/6_2.webp" type="image/webp"><img src="img/category_4/6_2.jpg" alt=""></picture></div>
+												<div class="swiper-slide"><picture><source srcset="img/category_4/6_3.webp" type="image/webp"><img src="img/category_4/6_3.jpg" alt=""></picture></div>
+												<div class="swiper-slide"><picture><source srcset="img/category_4/6_4.webp" type="image/webp"><img src="img/category_4/6_4.jpg" alt=""></picture></div>
+											</div>
+											<div class="swiper-pagination"></div>
+											<div class="swiper-button-prev"></div>
+											<div class="swiper-button-next"></div>
+										</div>
+									</div>
+									<div class="catalog__body">
+										<h6 class="catalog__label">Пара влюбленных</h6>
+										<p class="catalog__text">Свеча ручной работы «Пара влюбленных»</p>
+										<p class="catalog__text">Нежная, утонченная и полная любви</p>
+										<div class="catalog__price">
+											<span class="catalog__price-value">900</span>
+											<!-- <span class="catalog__price-discount"></span> -->
+										</div>
+										<div class="catalog__links">
+											<div class="catalog__button button">Купить</div>
+											<div class="catalog__icons icons">
+												<ul class="icons__row">
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/flowwow.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/instagram.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/ozon.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/telegram.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/wailberis.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/yandex.svg" alt=""></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="catalog__item catalog__item-4">
+									<div class="catalog__swiper">
+										<div class="swiper">
+											<div class="swiper-wrapper">
+												<div class="swiper-slide"><picture><source srcset="img/category_4/7_1.webp" type="image/webp"><img src="img/category_4/7_1.jpg" alt=""></picture></div>
+												<div class="swiper-slide"><picture><source srcset="img/category_4/7_2.webp" type="image/webp"><img src="img/category_4/7_2.jpg" alt=""></picture></div>
+												<div class="swiper-slide"><picture><source srcset="img/category_4/7_3.webp" type="image/webp"><img src="img/category_4/7_3.jpg" alt=""></picture></div>
+												<div class="swiper-slide"><picture><source srcset="img/category_4/7_4.webp" type="image/webp"><img src="img/category_4/7_4.jpg" alt=""></picture></div>
+											</div>
+											<div class="swiper-pagination"></div>
+											<div class="swiper-button-prev"></div>
+											<div class="swiper-button-next"></div>
+										</div>
+									</div>
+									<div class="catalog__body">
+										<h6 class="catalog__label">Кот вампир</h6>
+										<p class="catalog__text">Свеча «Кот вампир» украсит Ваш интерьер и может стать Вашим фамильяром. </p>
+										<div class="catalog__price">
+											<span class="catalog__price-value">500</span>
+											<!-- <span class="catalog__price-discount"></span> -->
+										</div>
+										<div class="catalog__links">
+											<div class="catalog__button button">Купить</div>
+											<div class="catalog__icons icons">
+												<ul class="icons__row">
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/flowwow.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/instagram.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/ozon.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/telegram.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/wailberis.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/yandex.svg" alt=""></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="catalog__item catalog__item-5">
+									<div class="catalog__swiper">
+										<div class="swiper">
+											<div class="swiper-wrapper">
+												<div class="swiper-slide"><picture><source srcset="img/category_5/1_1.webp" type="image/webp"><img src="img/category_5/1_1.jpg" alt=""></picture></div>
+												<div class="swiper-slide"><picture><source srcset="img/category_5/1_2.webp" type="image/webp"><img src="img/category_5/1_2.jpg" alt=""></picture></div>
+												<div class="swiper-slide"><picture><source srcset="img/category_5/1_3.webp" type="image/webp"><img src="img/category_5/1_3.jpg" alt=""></picture></div>
+											</div>
+											<div class="swiper-pagination"></div>
+											<div class="swiper-button-prev"></div>
+											<div class="swiper-button-next"></div>
+										</div>
+									</div>
 									<div class="catalog__body">
 										<h6 class="catalog__label">Подсвечник Бафомета</h6>
 										<p class="catalog__text">Подсвечник Бафомет подойдет для декора и столовой свечи</p>
@@ -184,84 +623,20 @@
 										<p class="catalog__text">Материал: гипс</p>
 										<div class="catalog__price">
 											<span class="catalog__price-value">500</span>
+											<!-- <span class="catalog__price-discount"></span> -->
 										</div>
-										<div class="catalog__button button">Купить</div>
-										<div class="catalog__icons icons">
-											<ul class="icons__row">
-												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/flowwow.svg" alt=""></a></li>
-												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/instagram.svg" alt=""></a></li>
-												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/ozon.svg" alt=""></a></li>
-												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/telegram.svg" alt=""></a></li>
-												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/wailberis.svg" alt=""></a></li>
-												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/yandex.svg" alt=""></a></li>
-											</ul>
-										</div>
-									</div>
-								</div>
-
-								<div class="catalog__item">
-									<picture><source srcset="img/catalog_5.webp" type="image/webp"><img class="catalog__img" src="img/catalog_5.jpg" alt=""></picture>
-									<div class="catalog__body">
-										<h6 class="catalog__label">Пара с татуировкой дракона</h6>
-										<p class="catalog__text">Особенностью данного набора является наличие двух свечей в форме торсов мужского и женского. Они выполнены в едином стиле, что позволяет создать гармоничную композицию в любом помещении.</p>
-										<p class="catalog__text">Свечи имеют реалистичные татуировки дракона на спине, что делает их не только источником света, но и стильным элементом декора.</p>
-										<div class="catalog__price">
-											<span class="catalog__price-value">990</span>
-										</div>
-										<div class="catalog__button button">Купить</div>
-										<div class="catalog__icons icons">
-											<ul class="icons__row">
-												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/flowwow.svg" alt=""></a></li>
-												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/instagram.svg" alt=""></a></li>
-												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/ozon.svg" alt=""></a></li>
-												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/telegram.svg" alt=""></a></li>
-												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/wailberis.svg" alt=""></a></li>
-												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/yandex.svg" alt=""></a></li>
-											</ul>
-										</div>
-									</div>
-								</div>
-								<div class="catalog__item">
-									<picture><source srcset="img/catalog_6.webp" type="image/webp"><img class="catalog__img" src="img/catalog_6.jpg" alt=""></picture>
-									<div class="catalog__body">
-										<h6 class="catalog__label">Ароматические свечи Один дома</h6>
-										<p class="catalog__text">Свеча "Один Дома" - это уникальное сочетание декоративного искусства и ароматерапии. Она создана из кокосового воска, что делает ее не только красивой, но и безопасной для окружающей среды.</p>
-										<p class="catalog__text">Аромат клубники, игристого и винограда, который источает свеча, создает уютную атмосферу и помогает расслабиться после долгого дня. "Один Дома" станет отличным подарком для любителей фильма "Один Дома" или просто для тех, кто ценит уют и комфорт.</p>
-										<div class="catalog__price">
-											<span class="catalog__price-value">1300</span>
-										</div>
-										<div class="catalog__button button">Купить</div>
-										<div class="catalog__icons icons">
-											<ul class="icons__row">
-												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/flowwow.svg" alt=""></a></li>
-												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/instagram.svg" alt=""></a></li>
-												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/ozon.svg" alt=""></a></li>
-												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/telegram.svg" alt=""></a></li>
-												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/wailberis.svg" alt=""></a></li>
-												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/yandex.svg" alt=""></a></li>
-											</ul>
-										</div>
-									</div>
-								</div>
-								<div class="catalog__item">
-									<picture><source srcset="img/catalog_7.webp" type="image/webp"><img class="catalog__img" src="img/catalog_7.jpg" alt=""></picture>
-									<div class="catalog__body">
-										<h6 class="catalog__label">Подсвечник молот Тора</h6>
-										<p class="catalog__text">Подсвечник молот Тора - скандинавского бога грома и молнии. Этот уникальный дизайн делает его не просто функциональным предметом, но и стильным элементом декора. Он предназначен для трех чайных свечей. Это позволяет создать уютную и теплую атмосферу в вашем доме, а также использовать подсвечник в качестве оригинального подарка.</p>
-										<p class="catalog__text">Подсвечник изготовлен из качественных материалов, что гарантирует его долговечность и безопасность использования.</p>
-										<div class="catalog__price">
-											<span class="catalog__price-value">990</span>
-										</div>
-										<div class="catalog__button button">Купить</div>
-										<div class="catalog__icons icons">
-											<ul class="icons__row">
-												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/flowwow.svg" alt=""></a></li>
-												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/instagram.svg" alt=""></a></li>
-												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/ozon.svg" alt=""></a></li>
-												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/telegram.svg" alt=""></a></li>
-												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/wailberis.svg" alt=""></a></li>
-												<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/yandex.svg" alt=""></a></li>
-											</ul>
+										<div class="catalog__links">
+											<div class="catalog__button button">Купить</div>
+											<div class="catalog__icons icons">
+												<ul class="icons__row">
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/flowwow.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/instagram.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/ozon.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/telegram.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/wailberis.svg" alt=""></a></li>
+													<li class="icons__item"><a class="icons__link" href="#"><img class="icons__img" src="img/icons/yandex.svg" alt=""></a></li>
+												</ul>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -311,6 +686,21 @@
 	</div>
 </footer>
 		</div>
-		<script src="js/app.min.js?_v=20231206181205"></script>
+		<script type="module">
+			import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs';
+
+			const swiper = new Swiper('.swiper', {
+				loop: true,
+				pagination: {
+					el: '.swiper-pagination',
+					clickable: true
+				},
+				navigation: {
+					nextEl: '.swiper-button-next',
+					prevEl: '.swiper-button-prev',
+				},
+			});
+		</script>
+		<script src="js/app.min.js?_v=20231208165703"></script>
 	</body>
 </html>
