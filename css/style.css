@@ -294,6 +294,7 @@ body {
 }
 
 .nav__element {
+  cursor: pointer;
   background-color: rgba(255, 255, 255, 0.1333333333);
   opacity: 0;
   transform: scale(0);
